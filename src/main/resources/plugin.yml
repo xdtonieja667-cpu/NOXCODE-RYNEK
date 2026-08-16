@@ -1,0 +1,27 @@
+name: NOXCODE-RYNEK
+version: '${project.version}'
+main: pl.noxcode.rynek.RynekPlugin
+api-version: '1.21'
+description: Plugin rynku NOXCODE z integracja Vault
+authors:
+  - NOXCODE
+depend:
+  - Vault
+
+commands:
+  rynek:
+    description: Otwiera GUI rynku z kategoriami
+    usage: /rynek
+    aliases: [market]
+  wystaw:
+    description: Wystawia przedmiot z reki na rynek
+    usage: /wystaw <ilosc> <cena>
+    aliases: [sell]
+
+permissions:
+  rynek.use:
+    description: Pozwala korzystac z rynku
+    default: true
+  rynek.sell:
+    description: Pozwala wystawiac przedmioty na rynek
+    default: true

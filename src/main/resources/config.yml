@@ -1,0 +1,5 @@
+# Konfiguracja pluginu NOXCODE-RYNEK
+# Pliki zapisywane sa w: plugins/NOXCODE-RYNEK/
+
+messages:
+  prefix: "&8[&bNOX&cCODE&8] &r"
